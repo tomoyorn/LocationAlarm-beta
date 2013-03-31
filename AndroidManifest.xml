@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.gr.java_conf.tomoyorn.locationalarm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps" />
+        <activity
+            android:name="jp.gr.java_conf.tomoyorn.locationalarm.AlarmListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlarmDetailActivity"
+                  android:label="@string/app_name"></activity>
+        <activity android:name=".DestinationSelectionActivity"
+                  android:label="@string/app_name"></activity>
+        <activity android:name=".AlarmStopConfirmationActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity android:name=".SettingsActivity"
+                  android:label="@string/app_name"></activity>
+        <receiver android:name=".ProximityAlertReceiver"></receiver>
+        <service android:name=".ProximityAlertService"></service>
+    </application>
+
+</manifest>

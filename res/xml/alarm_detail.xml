@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:title="@string/alarm_detail_destination_title"
+        android:dialogTitle="@string/alarm_detail_destination_title"
+        android:key="alarm_destination"></PreferenceScreen>
+    <!-- ラベル -->
+    <EditTextPreference
+        android:title="@string/alarm_detail_label_title"
+        android:dialogTitle="@string/alarm_detail_label_title"
+        android:key="alarm_label"></EditTextPreference>
+</PreferenceScreen>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/ok"
+            android:layout_weight="1"
+            android:text="@string/ok"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"></Button>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"></Button>
+    </LinearLayout>
+    <com.google.android.maps.MapView
+        android:id="@+id/map"
+        android:apiKey="0mmm3khxSiOYfGi4CuOR43cR5mZst9YIeVLQVeA"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:enabled="true"
+        android:clickable="true" />
+</LinearLayout>

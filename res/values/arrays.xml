@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_time">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="alarm_distance">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+</resources>

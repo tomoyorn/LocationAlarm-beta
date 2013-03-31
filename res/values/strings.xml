@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- アプリケーション全般 -->
+    <string name="app_name">Location Alarm</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+
+    <!-- アラーム一覧画面 -->
+    <string name="menu_start_alarm">開始</string>
+    <string name="menu_add_alarm">追加</string>
+    <string name="menu_edit_alarm">編集</string>
+    <string name="menu_delete_alarm">削除</string>
+    <string name="menu_preferences">設定</string>
+
+    <!-- 目的地選択画面 -->
+    <string name="menu_current_location">現在地</string>
+    <string name="menu_search_location">検索</string>
+
+    <!-- アラーム詳細設定画面 -->
+    <string name="alarm_detail_destination_title">目的地</string>
+    <string name="alarm_detail_label_title">ラベル</string>
+
+    <!-- 設定画面 -->
+    <string name="settings_general">全般設定</string>
+    <string name="settings_alarm_time_title">通知時間</string>
+    <string name="settings_alarm_time_summary">アラームを鳴らし続ける時間を設定する（分）</string>
+    <string name="settings_default">初期値設定</string>
+    <string name="settings_alarm_distance_title">通知距離</string>
+    <string name="settings_alarm_distance_summary">通知距離の初期値を設定する（km）</string>
+
+</resources>
